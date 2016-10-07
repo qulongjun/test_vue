@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f2f1f6-874f-47e9-b574-27bd6ea8da04" name="默认的" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_Vue_Directives.html" afterPath="$PROJECT_DIR$/10_Vue_Directives.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/11_Vue_Computed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/12_Vue_SetComputed.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test_Vue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="10_Vue_Directives.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10_Vue_Directives.html">
+      <file leaf-file-name="12_Vue_SetComputed.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/12_Vue_SetComputed.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="493">
+              <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -63,6 +65,8 @@
         <option value="$PROJECT_DIR$/08_Vue_express.html" />
         <option value="$PROJECT_DIR$/09_Vue_filter.html" />
         <option value="$PROJECT_DIR$/10_Vue_Directives.html" />
+        <option value="$PROJECT_DIR$/11_Vue_Computed.html" />
+        <option value="$PROJECT_DIR$/12_Vue_SetComputed.html" />
       </list>
     </option>
   </component>
@@ -214,12 +218,12 @@
       <option name="presentableId" value="Default" />
       <updated>1475300461896</updated>
       <workItem from="1475300463715" duration="2629000" />
-      <workItem from="1475805854464" duration="5236000" />
+      <workItem from="1475805854464" duration="5776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7865000" />
+    <option name="totallyTimeSpent" value="8405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -377,10 +381,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11_Vue_Computed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/10_Vue_Directives.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/12_Vue_SetComputed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
           <folding />
         </state>
       </provider>
