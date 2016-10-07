@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <ul :style="{listStyle:'none'}">
+        <li v-for="(index,num) in 10">{{index+1}}.{{num}}</li>
+    </ul>
+
+
+    <ul>
+        <template v-for="(index,num) in 10">
+            <li>{{index+1}}</li>
+            <li>{{num}}</li>
+        </template>
+
+    </ul>
+</div>
+
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {}
+    });
+</script>
+</body>
+</html>
