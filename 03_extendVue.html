@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var MyComponent = Vue.extend({
+        printX: function () {
+            console.log("Print X");
+        },
+        printAnyThing: function (thing) {
+            console.log("print " + thing);
+        }
+    });
+
+    var component = new MyComponent();
+    component.printX();
+    component.printAnyThing("Hello World!");
+</script>
+</body>
+</html>

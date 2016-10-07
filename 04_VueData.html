@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var dt = {
+        a: 1,
+        b: 2
+    };
+
+    var vm = new Vue({
+        el: '#example',
+        data: dt
+    })
+    console.log(vm.a);
+    console.log(vm.b);
+    vm.a = 3;
+    console.log(vm.a);
+    console.log(dt.a);
+    dt.a = 4;
+    console.log(vm.a);
+    console.log(dt.a);
+
+    console.log(vm.a == dt.a);
+</script>
+</body>
+</html>
