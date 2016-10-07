@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo" v-on:click="parent">
+    <span>Message : {{message}}</span><br/>
+    <input type="text" v-model="message">
+    <br>
+    <textarea v-model="message" cols="50" rows="5"></textarea>
+    <br/>
+    <input type="checkbox" v-model="checked" id="checkbox"><label for="checkbox">{{checked}}</label>
+    <br/>
+    <input type="checkbox" id="jack" value="jack" v-model="checkList"><label for="jack">Jack</label>
+    <input type="checkbox" id="tom" value="tom" v-model="checkList"><label for="tom">Tom</label>
+    <input type="checkbox" id="cat" value="cat" v-model="checkList"><label for="cat">Cat</label>
+    <input type="checkbox" id="jerry" value="jerry" v-model="checkList"><label for="jerry">Jerry</label>
+    <input type="checkbox" id="sim" value="sim" v-model="checkList"><label for="sim">Sim</label>
+    <span>checkList:{{ checkList | json }}</span>
+    <br/>
+
+    <input type="radio" id="one" value="One" v-model="radio"><label for="one">One</label>
+    <input type="radio" id="two" value="Two" v-model="radio"><label for="two">Two</label>
+    <span>选择的是:{{radio}}</span>
+    <br/>
+    <select v-model="select">
+        <option value="A" selected>A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="E">E</option>
+    </select>
+    <span>选择的是:{{select}}</span><br>
+    <select v-model="selectList" multiple>
+        <option value="A" selected>A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="E">E</option>
+    </select>
+    <span>选择的是:{{selectList | json}}</span>
+
+    <br/>
+    <select v-model="dynic_select">
+        <option v-for="option in options" value="{{option.value}}">{{option.text}}</option>
+    </select>
+    <span>动态选择为:{{dynic_select}}</span>
+    <br>
+    <input type="checkbox" v-model="toggle" v-bind:true-value="a" v-bind:false-value="b"><span>{{toggle}}</span>
+    <br/>
+    <input type="radio" v-model="pick" v-bind:value="a">{{pick}}
+    <br/>
+    <select v-model="select2">
+        <option v-bind:value="{number:123,text:'abc'}">A</option>
+        <option v-bind:value="{number:456,text:'def'}">B</option>
+    </select>
+    <span>{{select2 | json}}</span>
+    <br/>
+    <input type="text" v-model="lazy" lazy>
+    <span>{{lazy}}</span>
+    <br>
+    <input type="text" v-model="number" number>
+    <span>{{number}}</span>
+    <br/>
+    <input type="text" v-model="debounce" debounce="500">
+    <span>{{debounce}}</span>
+</div>
+
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {
+            message: "Hello World",
+            checkList: [],
+            dynic_select: 'a',
+            options: [
+                {text: 'A', value: 'a'},
+                {text: 'B', value: 'b'},
+                {text: 'C', value: 'c'},
+                {text: 'D', value: 'd'},
+                {text: 'E', value: 'e'},
+                {text: 'F', value: 'f'}
+            ],
+            a: 'true_value',
+            b: 'false_value'
+        },
+        methods: {
+            doSomething: function (value, event) {
+                console.log('aaa');
+                console.log(value);
+                console.log(event.target);
+            },
+            greet: function (event) {
+                console.log(event.target);
+            },
+            parent: function (event) {
+                //console.log("我是父亲");
+            },
+            onSubmit: function () {
+                console.log("提交表单")
+            },
+            input: function () {
+                console.log("我按下了回车");
+            }
+
+        }
+    });
+</script>
+</body>
+</html>
