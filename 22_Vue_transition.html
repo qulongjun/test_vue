@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+        .expand-transition {
+            transition: all .3s ease;
+            height: 30px;
+            padding: 10px;
+            background-color: #eee;
+            overflow: hidden;
+        }
+
+        /* .expand-enter 定义进入的开始状态 */
+        /* .expand-leave 定义离开的结束状态 */
+        .expand-enter, .expand-leave {
+            height: 0;
+            padding: 0 10px;
+            opacity: 0;
+        }
+
+        .bounce-transition {
+            display: inline-block; /* 否则 scale 动画不起作用 */
+        }
+
+        .bounce-enter {
+            animation: bounce-in .5s;
+        }
+
+        .bounce-leave {
+            animation: bounce-out .5s;
+        }
+
+        @keyframes bounce-in {
+            0% {
+                transform: scale(0);
+            }
+            50% {
+                transform: scale(1.5);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes bounce-out {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.5);
+            }
+            100% {
+                transform: scale(0);
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="demo" v-on:click="parent">
+    <!--<div v-if="isTrue" transition="expand">这是一个V-if的show操作</div>-->
+    <!--<div v-if="isTrue" :transition="transitionName">这是一个V-if的show操作</div>-->
+
+    <!--<span v-show="isTrue" transition="bounce">Look at me!</span>-->
+    <span v-show="isTrue" transition="fade">Look at me!</span>
+</div>
+
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {
+            isTrue: true,
+            transitionName: 'expand2'
+        },
+        methods: {
+            doSomething: function (value, event) {
+                console.log('aaa');
+                console.log(value);
+                console.log(event.target);
+            },
+            greet: function (event) {
+                console.log(event.target);
+            },
+            parent: function (event) {
+                //console.log("我是父亲");
+            },
+            onSubmit: function () {
+                console.log("提交表单")
+            },
+            input: function () {
+                console.log("我按下了回车");
+            }
+
+        }
+    });
+    Vue.transition('expand2', {
+        beforeEnter: function (el) {
+            console.log('进入之前')
+        },
+        enter: function (el) {
+            console.log('进入中')
+        },
+        afterEnter: function (el) {
+            console.log('进入完成');
+        },
+        beforeLeave: function (el) {
+            console.log('离开之前')
+        },
+        leave: function (el) {
+            console.log('离开中')
+        },
+        afterLeave: function (el) {
+            console.log('离开之后')
+        },
+        leaveCancelled: function (el) {
+            // handle cancellation
+            console.log('停止离开')
+        }
+    });
+    Vue.transition('fade', {
+        enter: function (el, done) {
+            $(el).css('opacity', 0).animate({opacity: 1}, 1000, done)
+        },
+        enterCancelled: function (el) {
+            $(el).stop();
+            console.log("停止");
+        },
+        leave: function (el, done) {
+            $(el).animate({opacity: 0}, 1000, done);
+        },
+        leaveCancelled: function (el) {
+            $(el).stop();
+            console.log("停止");
+        }
+    });
+</script>
+</body>
+</html>

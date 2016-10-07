@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f2f1f6-874f-47e9-b574-27bd6ea8da04" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/21_Vue_Form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/22_Vue_transition.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery-1.11.3.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test_Vue.iws" />
@@ -24,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="21_Vue_Form.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/21_Vue_Form.html">
+      <file leaf-file-name="22_Vue_transition.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/22_Vue_transition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+            <state relative-caret-position="571">
+              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -75,6 +76,7 @@
         <option value="$PROJECT_DIR$/19_Vue_For_Value.html" />
         <option value="$PROJECT_DIR$/20_Vue_Event.html" />
         <option value="$PROJECT_DIR$/21_Vue_Form.html" />
+        <option value="$PROJECT_DIR$/22_Vue_transition.html" />
       </list>
     </option>
   </component>
@@ -165,8 +167,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -229,12 +231,12 @@
       <option name="presentableId" value="Default" />
       <updated>1475300461896</updated>
       <workItem from="1475300463715" duration="2629000" />
-      <workItem from="1475805854464" duration="13040000" />
+      <workItem from="1475805854464" duration="14463000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15669000" />
+    <option name="totallyTimeSpent" value="17092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -482,8 +484,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/21_Vue_Form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        <state relative-caret-position="544">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.11.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/22_Vue_transition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
           <folding />
         </state>
       </provider>
