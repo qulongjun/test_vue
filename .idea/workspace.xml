@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f2f1f6-874f-47e9-b574-27bd6ea8da04" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02_simpleEvent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03_extendVue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/04_VueData.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_VueLife.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_SimpleGrammer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_OriginHtml.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/01_simpleDemo.html" afterPath="$PROJECT_DIR$/01_simpleDemo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_VueData.html" afterPath="$PROJECT_DIR$/04_VueData.html" />
     </list>
     <ignored path="test_Vue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="04_VueData.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/04_VueData.html">
+      <file leaf-file-name="07_OriginHtml.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07_OriginHtml.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="136">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -61,6 +61,9 @@
         <option value="$PROJECT_DIR$/02_simpleEvent.html" />
         <option value="$PROJECT_DIR$/03_extendVue.html" />
         <option value="$PROJECT_DIR$/04_VueData.html" />
+        <option value="$PROJECT_DIR$/05_VueLife.html" />
+        <option value="$PROJECT_DIR$/06_SimpleGrammer.html" />
+        <option value="$PROJECT_DIR$/07_OriginHtml.html" />
       </list>
     </option>
   </component>
@@ -212,12 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1475300461896</updated>
       <workItem from="1475300463715" duration="2629000" />
-      <workItem from="1475805854464" duration="2678000" />
+      <workItem from="1475805854464" duration="3807000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5307000" />
+    <option name="totallyTimeSpent" value="6436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -311,14 +314,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_simpleEvent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03_extendVue.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -329,8 +324,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/04_VueData.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05_VueLife.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/06_SimpleGrammer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_simpleEvent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07_OriginHtml.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>

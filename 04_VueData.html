@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
+<div id="example">
+    <p>aaa</p>
+</div>
 <script src="js/vue.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     var dt = {
@@ -15,7 +18,7 @@
     var vm = new Vue({
         el: '#example',
         data: dt
-    })
+    });
     console.log(vm.a);
     console.log(vm.b);
     vm.a = 3;
@@ -26,6 +29,7 @@
     console.log(dt.a);
 
     console.log(vm.a == dt.a);
+    console.log(vm.$data);
 </script>
 </body>
 </html>

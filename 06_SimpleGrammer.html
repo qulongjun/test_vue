@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <p>{{*msg}}</p>
+    <button v-on:click="changeValue">改变</button>
+</div>
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {
+            msg:"Hello World!"
+        },
+        methods:{
+            changeValue:function () {
+                this.msg="aaa";
+            }
+        }
+    });
+</script>
+</body>
+</html>
