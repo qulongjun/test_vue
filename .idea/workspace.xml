@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f2f1f6-874f-47e9-b574-27bd6ea8da04" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Vue_express.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_Vue_filter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Vue_Directives.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/10_Vue_Directives.html" afterPath="$PROJECT_DIR$/10_Vue_Directives.html" />
     </list>
     <ignored path="test_Vue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +26,8 @@
       <file leaf-file-name="10_Vue_Directives.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/10_Vue_Directives.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+            <state relative-caret-position="255">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -217,12 +214,12 @@
       <option name="presentableId" value="Default" />
       <updated>1475300461896</updated>
       <workItem from="1475300463715" duration="2629000" />
-      <workItem from="1475805854464" duration="4965000" />
+      <workItem from="1475805854464" duration="5236000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7594000" />
+    <option name="totallyTimeSpent" value="7865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -382,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/10_Vue_Directives.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
