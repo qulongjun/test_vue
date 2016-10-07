@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo" v-on:click="parent">
+    <button v-on:click.stop="doSomething('Hello World',$event)">点击我试试看</button>
+    <button v-on:click="greet">点击我试试看</button>
+
+    <form v-on:submit.prevent="onSubmit">
+        <input type="submit" value="提交表单">
+
+
+        <input type="text" v-on:keyup.enter="input">
+    </form>
+</div>
+
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {},
+        methods: {
+            doSomething: function (value, event) {
+                console.log('aaa');
+                console.log(value);
+                console.log(event.target);
+            },
+            greet: function (event) {
+                console.log(event.target);
+            },
+            parent: function (event) {
+                console.log("我是父亲");
+            },
+            onSubmit:function () {
+                console.log("提交表单")
+            },
+            input:function () {
+                console.log("我按下了回车");
+            }
+
+        }
+    });
+</script>
+</body>
+</html>

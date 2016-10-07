@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f2f1f6-874f-47e9-b574-27bd6ea8da04" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/18_Vue_For_Object.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/19_Vue_For_Value.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/20_Vue_Event.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/17_Vue_For.html" afterPath="$PROJECT_DIR$/17_Vue_For.html" />
     </list>
     <ignored path="test_Vue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="19_Vue_For_Value.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="19_Vue_For_Value.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/19_Vue_For_Value.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20_Vue_Event.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/20_Vue_Event.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -75,6 +83,7 @@
         <option value="$PROJECT_DIR$/17_Vue_For.html" />
         <option value="$PROJECT_DIR$/18_Vue_For_Object.html" />
         <option value="$PROJECT_DIR$/19_Vue_For_Value.html" />
+        <option value="$PROJECT_DIR$/20_Vue_Event.html" />
       </list>
     </option>
   </component>
@@ -229,12 +238,12 @@
       <option name="presentableId" value="Default" />
       <updated>1475300461896</updated>
       <workItem from="1475300463715" duration="2629000" />
-      <workItem from="1475805854464" duration="9261000" />
+      <workItem from="1475805854464" duration="10718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11890000" />
+    <option name="totallyTimeSpent" value="13347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -468,6 +477,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/20_Vue_Event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
           <folding />
         </state>
       </provider>
