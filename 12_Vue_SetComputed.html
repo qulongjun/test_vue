@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <p>a={{a}}</p>
+    <p>b={{b}}</p>
+    <button @click="changeA">改变</button>
+</div>
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {
+            a: 1
+        },
+        computed: {
+            b: {
+                get: function () {
+                    console.log("触发了get");
+                    return this.a++;
+                },
+                set: function (newValue) {
+                    console.log("触发了set");
+                }
+            }
+        },
+        methods: {
+            changeA: function () {
+                this.a++;
+            }
+        }
+    });
+</script>
+</body>
+</html>
