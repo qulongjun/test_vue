@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <p v-if="isTrue">这是一个if的显示结果</p>
+    <p v-else>这是一个else的<p v-if="isTrue">正确显示结果</p><p v-else>错误显示结果</p></p>
+
+
+    <template v-if="isTrue">
+        <p>这是一个块级的模板</p>
+        <p>它的执行结果为true</p>
+        <p>测试</p>
+    </template>
+    <template v-else>
+        <p>这是一个块级的模板</p>
+        <p>它的执行结果为false</p>
+        <p>测试</p>
+    </template>
+</div>
+
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {
+            isTrue: true
+        }
+    });
+</script>
+</body>
+</html>
