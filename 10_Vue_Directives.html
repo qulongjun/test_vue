@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <p v-if="msg">Hello!</p>
+    <p v-if="msg2">Hello!2</p>
+
+    <a v-bind:href="url">点击链接</a>
+
+    <button v-on:click="changeValue">点击修改</button>
+</div>
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {
+            msg:"Hello World Vue JS",
+            url:"http://www.baidu.com"
+        },
+        methods:{
+            changeValue:function (value) {
+                //this.msg="aaa";
+                this.url="http://mail.qq.com"
+            }
+        }
+    });
+</script>
+</body>
+</html>

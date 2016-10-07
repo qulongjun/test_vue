@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f2f1f6-874f-47e9-b574-27bd6ea8da04" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/05_VueLife.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06_SimpleGrammer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07_OriginHtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/08_Vue_express.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/09_Vue_filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/10_Vue_Directives.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/04_VueData.html" afterPath="$PROJECT_DIR$/04_VueData.html" />
     </list>
     <ignored path="test_Vue.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="07_OriginHtml.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/07_OriginHtml.html">
+      <file leaf-file-name="10_Vue_Directives.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/10_Vue_Directives.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="442">
+              <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -64,6 +63,9 @@
         <option value="$PROJECT_DIR$/05_VueLife.html" />
         <option value="$PROJECT_DIR$/06_SimpleGrammer.html" />
         <option value="$PROJECT_DIR$/07_OriginHtml.html" />
+        <option value="$PROJECT_DIR$/08_Vue_express.html" />
+        <option value="$PROJECT_DIR$/09_Vue_filter.html" />
+        <option value="$PROJECT_DIR$/10_Vue_Directives.html" />
       </list>
     </option>
   </component>
@@ -215,12 +217,12 @@
       <option name="presentableId" value="Default" />
       <updated>1475300461896</updated>
       <workItem from="1475300463715" duration="2629000" />
-      <workItem from="1475805854464" duration="3807000" />
+      <workItem from="1475805854464" duration="4965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6436000" />
+    <option name="totallyTimeSpent" value="7594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -358,6 +360,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/08_Vue_express.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/09_Vue_filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10_Vue_Directives.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
           <folding />
         </state>
       </provider>
