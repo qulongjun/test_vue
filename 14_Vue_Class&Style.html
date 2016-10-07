@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="demo">
+    <p :style="currentStyle">Style样式测试</p>
+    <p :style="{'color':'red','fontSize':'30px','background':'yellow'}">Style样式测试</p>
+    <p :style="{'color':color,'fontSize':fontSize+'px','background':backColor}">Style样式测试</p>
+    <p :style="[currentStyle,currentStyle2]">Style样式测试</p>
+</div>
+<script src="js/vue.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: "#demo",
+        data: {
+            currentStyle: {
+                fontSize: '30px',
+                color: 'red',
+                background: 'yellow'
+            },
+            currentStyle2: {
+                border: '2px solid black'
+
+            },
+            fontSize: 30,
+            backColor: 'yellow',
+            color: 'red'
+        }
+    });
+</script>
+</body>
+</html>
